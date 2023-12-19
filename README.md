@@ -53,9 +53,13 @@ The resulting feature matrix, along with the encoded class labels, can now be us
 1.	Model Selection
 Several popular machine learning algorithms were considered for sentiment analysis, including:
 •	Naive Bayes Algorithm
+
 •	Logistic Regression Algorithm
+
 •	Support Vector Machines Algorithm
+
 •	MLP Classifier Algorithm
+
 •	Random Forest Classifier Algorithm
 
 Each algorithm was chosen based on its suitability for text classification tasks and its potential to capture the sentiment information from the tweet text.
@@ -63,45 +67,49 @@ Each algorithm was chosen based on its suitability for text classification tasks
 2.	Model Training
 For each selected algorithm, the following steps were performed:
 •	Splitting the preprocessed dataset into training and testing sets ( using an 70:30 ratio).
+
 •	Initializing an instance of the chosen algorithm with default hyperparameters.
+
 •	Training the model on the training set, which involves feeding the feature matrix and corresponding class labels.
+
 •	Evaluating the trained model's performance on the testing set, using metrics such as accuracy, precision, recall, and F1-score.
+
 •	Repeating the training and evaluation process for each selected algorithm.
 
 ## Results and Evaluation
 
 The trained machine learning models were evaluated using various performance metrics to assess their effectiveness in sentiment analysis on Arabic tweets. The following models were considered:
 1.	Naive Bayes (GaussianNB)
+   
 •	Accuracy: 0.723
+
 •	Precision: 0.67%
+
 •	F1-Score: 0.67%
 
 3.	Logistic Regression
+   
 •	Accuracy: 0.767
+
 •	Precision: 0.76%
+
 •	F1-Score: 0.76%
 
 5.	Support Vector Machines (SVM)
+   
 •	Accuracy: 0.524
 
 7.	MLP Classifier (Neural Network)
+   
 •	Accuracy: 0.771
 
 9.	Random Forest Classifier
+    
 •	Accuracy: 0.781
 
-
-Models	                    Accuracy
-Naive Bayes	                  0.723
-Logistic Regression   	      0.767
-Support Vector Machines      	0.524
-MLP Classifier	              0.771
-Random Forest Classifier      0.781
-
 Based on the evaluation results, it can be observed that the Random Forest Classifier achieved the highest accuracy among the models with an accuracy of 0.781. 
-## Test the Model with New Text
 
-## Test the model with now text
+## Test the Model with New Text
 
 To provide a user-friendly interface for sentiment analysis, a GUI was developed using the Tkinter library in Python. The GUI allows users to enter text and obtain sentiment analysis results using the trained model.
 ![image](https://github.com/rahaf-fahad/Sentiment-Analysis/assets/95524346/e3a0566e-2a62-458b-aa3a-3d835072ebe7)
