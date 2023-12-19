@@ -1,7 +1,7 @@
 # Sentiment-Analysis
 # Sentiment Analysis for Arabic Tweets
 
-This project focuses on sentiment analysis for Arabic tweets using classical machine learning models.
+The objective of this project is to develop a sentiment analysis system using classical machine learning models for the Arabic language. 
 
 ## Table of Contents
 - [Introduction](#introduction)
